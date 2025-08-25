@@ -1,0 +1,67 @@
+
+
+Project Title: Restaurant Management System
+
+Objective:
+To create a desktop-based system that allows customers to place orders and staff to manage billing and order completion efficiently.
+
+Modules:
+
+1. Gateway Window – Entry point for Customer or Staff.
+
+
+2. Customer Module (Menu & Ordering) –
+
+Displays menu items from the database.
+
+Allows customers to select dishes and enter table number.
+
+Places the order in the database.
+
+
+
+3. Staff Login Module –
+
+Secure login using staff credentials stored in the database.
+
+
+
+4. Billing Module (Staff Only) –
+
+Lists all active (in-progress) orders.
+
+Generates detailed bills with tax calculation.
+
+Allows printing the bill.
+
+Marks orders as completed.
+
+
+
+
+Key Features:
+
+Connection pooling for efficient database usage.
+
+User-friendly GUI built with Java Swing.
+
+Secure staff login.
+
+Real-time menu loading and order updates.
+
+GST calculation (18%) applied on orders.
+
+Print-ready bills.
+
+
+Technology Stack:
+
+Frontend: Java Swing
+
+Backend: MySQL Database
+
+Connector: JDBC (MySQL Connector/J)
+
+
+Outcome:
+This system reduces manual errors in taking orders and billing, improves staff efficiency, and enhances customer experience by streamlining the restaurant management process.
