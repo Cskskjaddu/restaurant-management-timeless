@@ -1,0 +1,13 @@
+# Java Requirements
+Java JDK 8 or above  
+MySQL Connector/J (com.mysql.cj.jdbc.Driver)  
+
+# Database
+MySQL Server with the following tables:
+    - menu (id INT, name VARCHAR, price DECIMAL)
+    - staff (id INT, name VARCHAR, password_hash VARCHAR)
+    - orders (id INT, table_no INT, status VARCHAR)
+    - order_items (id INT, order_id INT, menu_item_id INT, quantity INT)
+
+# External Libraries
+mysql-connector-j-<version>.jar  (Add to project classpath)
